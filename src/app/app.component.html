@@ -1,4 +1,14 @@
-<!--The content below is only a placeholder and can be replaced.-->
+<mdc-app-bar #demoappbar [short]="true" [fixedAdjustElement]="mainContent">
+	<mdc-app-bar-row>
+		<mdc-app-bar-section align="start" title="App Title">
+			<mdc-icon mdcAppBarNavIcon>menu</mdc-icon>
+		</mdc-app-bar-section>
+		<mdc-app-bar-section align="end">
+			<mdc-icon mdcAppBarActionItem>file_download</mdc-icon>
+		</mdc-app-bar-section>
+	</mdc-app-bar-row>
+</mdc-app-bar>
+
 <div style="text-align:center">
   <h1>
     Welcome to {{ title }}!

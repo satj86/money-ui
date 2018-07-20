@@ -3,12 +3,17 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
+import { MdcAppBarModule, MdcTypographyModule, MdcIconModule } from '@angular-mdc/web';
+
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    MdcAppBarModule,
+    MdcTypographyModule,
+    MdcIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
